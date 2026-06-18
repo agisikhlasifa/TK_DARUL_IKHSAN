@@ -1,0 +1,15 @@
+/* Konfigurasi Font Utama */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Kustomisasi Mode Seleksi Teks */
+::selection {
+    background-color: #6366f1; /* indigo-500 */
+    color: #ffffff;
+}
+
+/* Utilitas Tambahan jika diperlukan untuk Figma Mockup */
+.line-through-dynamic {
+    text-decoration-line: line-through;
+}
