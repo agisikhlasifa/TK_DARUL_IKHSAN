@@ -105,7 +105,7 @@ body{
   justify-content:center;
   text-align:center;
   position:relative;
-  background:url('https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9') center/cover;
+  background:url('3.jpeg') center/cover;
 }
 
 .hero-overlay{
@@ -156,8 +156,22 @@ body{
   border-radius:40px;
   text-decoration:none;
   color:white;
+  transition:all .3s ease;
 }
 
+/* Saat cursor diarahkan */
+.btn-secondary:hover{
+  background:white;
+  color:var(--pink);
+}
+
+/* Saat tombol ditekan */
+.btn-secondary:active{
+  background:var(--pink);
+  color:white;
+  border-color:var(--pink);
+  transform:scale(0.96);
+}
 /* ================= LAYOUT UMUM & KARTU ================= */
 .about,
 .program,
