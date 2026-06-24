@@ -201,20 +201,3 @@ window.addEventListener("click",(e)=>{
   }
 
 });
-
-
-// ================= PPDB BUTTON =================
-
-const daftarBtn =
-document.querySelector("#ppdb .btn-primary");
-
-daftarBtn.addEventListener("click",(e)=>{
-
-  e.preventDefault();
-
-  alert(
-    "Terima kasih telah mendaftar di TK Ceria Anak Bangsa "
-  );
-
-});
-
